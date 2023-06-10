@@ -7,12 +7,19 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
+frontend/node_modules
+frontend/.DS_Store
+frontend/dist
+frontend/dist-ssr
+frontend/coverage
+frontend/*.local
+
+backend/node_modules
+backend/.DS_Store
+backend/dist
+backend/dist-ssr
+backend/coverage
+backend/*.local
 
 /cypress/videos/
 /cypress/screenshots/
